@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Prompt;
+  src: url("../fonts/Prompt-Regular.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Prompt;
+}
+
+body {
+  display: flex;
+  background-color: #222222;
+  align-items: center;
+  flex-direction: column;
+
+  & h1 {
+    margin: 53px auto;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  & img {
+    width: 80%;
+  }
+}
